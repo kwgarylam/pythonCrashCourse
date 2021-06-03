@@ -5,7 +5,8 @@ Learning notes for python through projects
 
 
 ## Table of content
-
+### Background
+* [Data type and variable](#data-type-and-variable)
 
 ## Background
 
