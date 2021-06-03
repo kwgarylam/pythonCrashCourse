@@ -32,6 +32,69 @@ Learning notes for python through projects
   print(x)
   print(type(x))
   ```
+  
+#### String
+  ```python
+  say = "Hello Hong Kong"
+  print(say)
+  print(type(say))
+  ```
+  ```python
+  str1 = "Welcome"
+  str2 = "to Hong Kong"
+  print(str1, str2)
+  print(str1 + str2)
+  ```
+  
+#### Casting
+  ```python
+  floatNum = 55.0
+  intNum = int(floatNum)
+  ```
+  
+  ```python
+  stringNum = "55"
+  intNum = int(stringNum)
+  ```
+  
+#### Containers
 
+#### List
+  ```python
+  list1 = [0]*10
+  print(list1)
 
+  list2 = ','.join(['This', 'is', 'a', 'list'])
+  print(list2)
 
+  print(list('Python is fun'))
+  ```
+
+#### Set
+  ```python
+  admins = {'Justin', 'Paul'}
+  users = {'Billy', 'Apple', 'Justin'}
+
+  # Is Justin in admin team?
+  print('Justin' in admins)
+
+  # Both in admins and users
+  print(admins & users)
+  ```
+
+#### Dictionary
+  ```python
+  passwords = {'Justin' : 1234, 'Billy' : 9999}
+  print(passwords['Justin'])
+
+  passwords['John'] = 1999
+  print(passwords)
+  print(passwords.keys())
+  print(passwords.values())
+  ```
+
+#### Reference
+https://openhome.cc/Gossip/CodeData/PythonTutorial/ContainerFlowComprehensionPy3.html
+
+```python
+```
