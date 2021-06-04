@@ -94,7 +94,7 @@ Learning notes for python through projects
   print(passwords.values())
   ```
 
-#### Reference
+Reference:
 https://openhome.cc/Gossip/CodeData/PythonTutorial/ContainerFlowComprehensionPy3.html
 
   ```python
