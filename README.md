@@ -108,32 +108,32 @@ https://openhome.cc/Gossip/CodeData/PythonTutorial/ContainerFlowComprehensionPy3
   ``` 
   
 Modify:
-```python
-print('Enter your name:')
-name = input()
+  ```python
+  print('Enter your name:')
+  name = input()
 
-if len(name) != 0:
-    print ('Hello, ', name)
-else:
-    print ('Hello, Guest')
-```
+  if len(name) != 0:
+      print ('Hello, ', name)
+  else:
+      print ('Hello, Guest')
+  ```
 
-包含式（comprehension）
-```python
-print('Enter your name:')
-name = input()
+comprehension
+  ```python
+  print('Enter your name:')
+  name = input()
 
-print('Hello, ', name if name != '' else 'Guest')
-```
-
-print('Enter two numbers ...')
-m = int(input('Number 1: '))
-n = int(input('Number 2: '))
+  print('Hello, ', name if name != '' else 'Guest')
+  ```
 
 ### Basic Loops
 
 #### While loop
   ```python
+  print('Enter two numbers ...')
+  m = int(input('Number 1: '))
+  n = int(input('Number 2: '))
+  
   # Greatest Common Divisor
   while n!= 0:
       r = m % n
